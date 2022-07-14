@@ -1,0 +1,40 @@
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    width: 400px;
+    height: 450px;
+    background: #FB6E1E;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-top-card img {
+    width: 110%;
+    border-radius: 100%;
+}
+
+.image-top-card {
+    bottom: 235px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.image-profile img {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.image-profile {
+    align-self: center;
+    z-index: 1;
+}
