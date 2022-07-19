@@ -1,40 +1,68 @@
+body {
+    font-family: Tahoma, sans-serif;
+}
+
 section {
-    width: 100%;
-    height: 100%;
     display: flex;
+    height: 100%;
     justify-content: center;
+    width: 100%;
 }
 
 .card-container {
-    width: 400px;
-    height: 450px;
     background: #FB6E1E;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
+    height: 450px;
     overflow: hidden;
     position: relative;
+    width: 400px;
 }
 
 .image-top-card img {
-    width: 110%;
     border-radius: 100%;
+    height: 300px;
+    width: 110%;
 }
 
 .image-top-card {
-    bottom: 235px;
-    position: absolute;
-    justify-content: center;
+    bottom: 250px;
     display: flex;
+    justify-content: center;
+    position: absolute;
 }
 
 .image-profile img {
-    width: 100px;
-    height: 100px;
+    border: 7px #FB6E1E solid;
+    border-radius: 100px;
+    box-sizing: border-box;
+    height: 120px;
+    width: 120px;
     z-index: 1;
-    border-radius: 50px;
 }
 
 .image-profile {
     align-self: center;
+    bottom: 210px;
     z-index: 1;
+    position: absolute;
+}
+
+section .name-and-profile {
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
+
+.name-and-profile h1 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.name-and-profile p {
+    margin: 0;
+    font-size: 18px;
 }
